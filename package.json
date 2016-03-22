@@ -1,0 +1,30 @@
+{
+  "name": "split-by-comma-regex",
+  "description": "Regular expression for splitting strings by comma.",
+  "keywords": [
+    "split",
+    "by",
+    "comma",
+    "regex",
+    "regular",
+    "expression",
+    "for",
+    "splitting",
+    "strings"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/split-by-comma-regex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/split-by-comma-regex/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/split-by-comma-regex#readme"
+}
