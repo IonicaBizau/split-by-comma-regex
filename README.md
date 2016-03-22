@@ -14,19 +14,19 @@ $ npm i --save split-by-comma-regex
 const splitByCommaRegex = require("split-by-comma-regex");
 
 console.log(splitByCommaRegex());
+// => /[ ,]+/gm
+
+console.log("1, 2,3   ,   4,   5    ,6".split(splitByCommaRegex()));
+// => [ '1', '2', '3', '4', '5', '6' ]
 ```
 
 ## Documentation
 
-### `splitByCommaRegex(a, b)`
+### `splitByCommaRegex()`
 Regular expression for splitting strings by comma.
 
-#### Params
-- **Number** `a`: Param descrpition.
-- **Number** `b`: Param descrpition.
-
 #### Return
-- **Number** Return description.
+- **RegExp** The regular expression.
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
