@@ -1,14 +1,18 @@
+
 # split-by-comma-regex [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/split-by-comma-regex.svg)](https://www.npmjs.com/package/split-by-comma-regex) [![Downloads](https://img.shields.io/npm/dt/split-by-comma-regex.svg)](https://www.npmjs.com/package/split-by-comma-regex) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Regular expression for splitting strings by comma.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save split-by-comma-regex
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 const splitByCommaRegex = require("split-by-comma-regex");
@@ -20,7 +24,8 @@ console.log("1, 2,3   ,   4,   5    ,6".split(splitByCommaRegex()));
 // => [ '1', '2', '3', '4', '5', '6' ]
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `splitByCommaRegex()`
 Regular expression for splitting strings by comma.
@@ -28,13 +33,18 @@ Regular expression for splitting strings by comma.
 #### Return
 - **RegExp** The regular expression.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## License
+
+ - [`split-by-comma`](https://github.com/IonicaBizau/split-by-comma#readme)—Split strings by comma in a smart way.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
